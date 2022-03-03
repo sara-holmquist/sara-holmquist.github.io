@@ -1,32 +1,38 @@
 body{
     background-color: lightsalmon;
+    background-image: url(shapes.svg);
+    background-size: contain;
 }
-.box{
+.card{
     background-color: lightcoral;
-    padding: 10px;
-    margin: 5vw;
     box-shadow: 10px 10px darkslateblue;
+    margin: 1em;
 }
+
 h1, h2, p{
     color:darkslateblue;
-    text-transform: ;
 }
 h2{
-    font-size: small;
+    font-size: large;
 }
 
-a{
-    color: darkslategrey;
-    text-decoration: none;
-    border: white  solid;
-
-    background-color: white;
-}
-
-a:hover{
-    border: whitesmoke 1em solid;
-}
-
-h1,h2,p,a{
+*{
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+}
+
+.github{
+
+}
+
+.about{
+
+}
+
+
+@media screen and (min-width: 900px) {
+    .card{
+        
+    }
 }
